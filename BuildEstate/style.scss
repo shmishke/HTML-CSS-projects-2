@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.logo1 {
+  color: orange;
+  border: 5px solid black;
+  padding-left: 8px;
+  border-right: none;
+}
+
+ul {
+  list-style-type: none;
+  background: rgb(89, 184, 248);
+  text-align: center;
+  color: white;
+}
+
+.links {
+  color: white;
+}
+.nav {
+  width: 90vw;
+  margin-bottom: 2rem;
+}
+li {
+  padding: 1rem;
+}
+.hero-img {
+  width: 100%;
+  background: url(./images/banner3.jpg) center/cover no-repeat;
+  height: 500px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.hero-link {
+  color: white;
+}
